@@ -37,12 +37,12 @@ class PokemonDetailVC: UIViewController {
     }
     
     func updateUI(){
-//        mainImage.image = UIImage(named: "\(pokemon.pokedexID)")
-//        defenseLbl.text = pokemon.defense
-//        attackLbl.text = pokemon.attack
-//        weightLbl.text = pokemon.weight
-//        heightLbl.text = pokemon.height
-//        pokedexLbl.text = "\(pokemon.pokedexID)"
+        mainImage.image = UIImage(named: "\(pokemon.pokedexID)")
+        defenseLbl.text = pokemon.defense
+        attackLbl.text = pokemon.attack
+        weightLbl.text = pokemon.weight
+        heightLbl.text = pokemon.height
+        pokedexLbl.text = "\(pokemon.pokedexID)"
         
         
         print (pokemon.defense)
